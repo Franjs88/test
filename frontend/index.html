@@ -1,0 +1,42 @@
+<html lang="en" >
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Angular Material style sheet -->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+</head>
+
+<body ng-app="SimpleBlog" ng-cloak>
+
+    <md-content style="background-color: #e9ebee;" layout="column" ng-controller="blogController">
+
+        <header></header>
+
+        <blog-post class="move-up" ng-repeat="post in posts"
+                   title="post.title" categorie="post.categorie" text="post.previewText"></blog-post>
+
+    </md-content>
+
+
+
+<!-- Angular.js Libraries -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+
+<!-- Angular Material Library -->
+<script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+
+<!-- Application bootstrap  -->
+<script src="js/app.js"></script>
+<script src="js/blog-controller.js"></script>
+<script src="js/blogPost.js"></script>
+<script src="js/header.js"></script>
+<script src="js/config.js"></script>
+
+</body>
+
+</html>

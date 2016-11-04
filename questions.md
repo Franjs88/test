@@ -33,4 +33,4 @@ Because I've already passed through the technical challenges a startup has to fa
 
 
 * Honestly, what do you think about this test?
-A filter for people that don't know we development, but doesn't give you a real sense of the candidate skills in 2 hours.
+A filter for people that don't know web development, but doesn't give you a real sense of the candidate skills in 2 hours.
