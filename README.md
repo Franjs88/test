@@ -1,5 +1,9 @@
 # Gremyo Developer Test
 
+Heroku app is not working properly because of the HTTPS Mixed Content Error Chrome and Firefox throw. This error occurs when the page is running on a HTTPS enviroment, but any of the internal or external requests use HTTP. The browser detects this as unsecure and block this 'unsecure' requests.
+
+heroku lets you add an SSL certificate but you need to pay for that, so for the intentions of this test, I wont do that.
+
 ## Fran Instructions to deploy locally the test:
 Project is written in CoffeeScript, so you need to build the project before running it, do it in this way:
 ```
