@@ -42,7 +42,7 @@ posts = [
   }
 ]
 # Initialize the app.
-server = app.listen(5000, ->
+server = app.listen(process.env.PORT or 8080, ->
   port = server.address().port
   console.log 'Magic happens on port', port
   return
