@@ -1,5 +1,19 @@
 # Gremyo Developer Test
 
+## Fran Instructions to deploy locally the test:
+Project is written in CoffeeScript, so you need to build the project before running it, do it in this way:
+```
+grunt build
+node build/server.js
+```
+Now open your prefered browser and write the url:
+```
+http://localhost:8080
+```
+
+Done!
+
+
 ![gremyo logo](http://i.imgur.com/XqXUlvv.png)
 
 Welcome! This test covers frontend and backend web development.
